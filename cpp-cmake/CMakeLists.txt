@@ -34,7 +34,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} \
 	-Wall -Wextra -Wno-unknown-pragmas \
 	-Wcpp \
 	-Wno-enum-compare \
-	-fno-rtti -fexceptions \
+	-frtti -fexceptions \
 	-DMSGPACK_DISABLE_LEGACY_CONVERT \
 	")
 if (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
