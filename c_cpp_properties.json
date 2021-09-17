@@ -1,0 +1,25 @@
+{
+	"configurations": [
+		{
+			"name": "Linux",
+			"includePath": [
+				"${workspaceFolder}/include",
+				"${workspaceFolder}/sysinc"
+			],
+			"defines": [],
+			"compilerPath": "/usr/lib/ccache/bin/clang",
+			"cStandard": "c17",
+			"cppStandard": "gnu++20",
+			"intelliSenseMode": "linux-clang-x64",
+			"browse": {
+				"limitSymbolsToIncludedHeaders": true,
+				"path": [
+					"${workspaceFolder}/src",
+					"${workspaceFolder}/include",
+					"${workspaceFolder}/sysinc"
+				]
+			}
+		}
+	],
+	"version": 4
+}
