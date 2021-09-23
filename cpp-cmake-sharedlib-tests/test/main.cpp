@@ -76,4 +76,11 @@ int main() {
 	std::cout << TEST_INDENT << "Failed: " << stats.failed << std::endl;
 	std::clog << TEST_INDENT << "Succeeded: " << stats.succeeded << std::endl;
 	std::clog << (stats.success_rate() * 100) << "% success rate" << std::endl;
+	if (stats.exited_with_exception) {
+		return 2;
+	} else if (stats.failed > 0) {
+		return 1;
+	} else {
+		return 0;
+	}
 }
