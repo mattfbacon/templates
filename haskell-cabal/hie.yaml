@@ -7,7 +7,7 @@ cradle:
             arguments:
               - "-package Cabal"
               - "-package base"
-    - path: ./app
+    - path: ./src
       config:
         cradle:
           cabal:
