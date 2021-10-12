@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.21)
 
 # Names
-set(PROJECT_NAME "Shared Library" CACHE STRING "Project Name")
-set(EXECUTABLE_NAME libname CACHE STRING "Executable Name")
+set(PROJECT_NAME "FILLTHISIN" CACHE STRING "Project Name")
+set(EXECUTABLE_NAME FILLTHISIN CACHE STRING "Executable Name")
 
 # Dirs
 set(DIR_SRC src CACHE PATH "Source Directory")
