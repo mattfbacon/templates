@@ -85,4 +85,3 @@ set_property(TARGET ${EXECUTABLE_NAME} PROPERTY ARCHIVE_OUTPUT_DIRECTORY "${${PR
 include(test.cmake)
 
 # Extra Stuff Starts Here
-target_link_libraries(${EXECUTABLE_NAME} PRIVATE memcached)
