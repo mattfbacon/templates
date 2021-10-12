@@ -1,0 +1,37 @@
+cabal-version:      3.6
+name:               FILLTHISIN
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+synopsis:           FILLTHISIN
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+license:            FILLTHISIN
+author:             FILLTHISIN
+maintainer:         FILLTHISIN
+
+-- A copyright notice.
+-- copyright:
+-- category:
+extra-source-files: CHANGELOG.md
+
+executable airplane
+    main-is:          Main.hs
+
+    -- Modules included in this executable, other than Main.
+    other-modules:    FILLTHISIN
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    FILLTHISIN
+    hs-source-dirs:   src
+    default-language: Haskell2010
+
+    ghc-options: -W -fllvm -threaded -O
+    default-extensions: ImplicitPrelude StarIsType MonomorphismRestriction TraditionalRecordSyntax EmptyDataDecls FunctionalDependencies ForeignFunctionInterface PatternGuards DoAndIfThenElse RelaxedPolyRec BangPatterns BinaryLiterals ConstrainedClassMethods ConstraintKinds DeriveDataTypeable DeriveFoldable DeriveFunctor DeriveGeneric DeriveLift DeriveTraversable EmptyCase EmptyDataDeriving ExistentialQuantification ExplicitForAll FlexibleContexts FlexibleInstances GADTSyntax GeneralisedNewtypeDeriving HexFloatLiterals ImportQualifiedPost InstanceSigs KindSignatures LambdaCase MultiParamTypeClasses MultiWayIf NamedFieldPuns NamedWildCards NumericUnderscores PolyKinds PostfixOperators RankNTypes ScopedTypeVariables StandaloneDeriving StandaloneKindSignatures TupleSections TypeApplications TypeOperators TypeSynonymInstances ApplicativeDo Safe
