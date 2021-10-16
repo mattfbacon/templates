@@ -1,22 +1,21 @@
 cmake_minimum_required(VERSION 3.21)
 
-# Names
-set(PROJECT_NAME "FILLTHISIN" CACHE STRING "Project Name")
-set(EXECUTABLE_NAME FILLTHISIN CACHE STRING "Executable Name")
+set(EXECUTABLE_NAME FILLTHISIN)
+set(PROJECT_NAME FILLTHISIN)
 
 # Dirs
-set(DIR_SRC src CACHE PATH "Source Directory")
-set(DIR_DIST dist CACHE PATH "Binary Directory")
-set(DIR_INCLUDE include CACHE PATH "Include Directory")
-set(DIR_SYSINC sysinc CACHE PATH "System Include Directory")
-set(DIR_LIB lib CACHE PATH "Libraries Directory")
+set(DIR_SRC src)
+set(DIR_DIST dist)
+set(DIR_INCLUDE include)
+set(DIR_SYSINC sysinc)
+set(DIR_LIB lib)
+
+project(${PROJECT_NAME} VERSION 0.1 LANGUAGES C CXX)
 
 # Sources
 set (sources
 	lib.cpp
 	)
-
-project(${PROJECT_NAME} VERSION 0.1 LANGUAGES C CXX)
 
 set(CMAKE_CONFIGURATION_TYPES "Debug;Release")
 set(CMAKE_POSITION_INDEPENDENT_CODE True)
