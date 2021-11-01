@@ -37,7 +37,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} \
 	-DMSGPACK_DISABLE_LEGACY_CONVERT \
 	")
 if (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
-	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -flto -fcolor-diagnostics \
+	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fcolor-diagnostics \
 		-Wno-gnu-zero-variadic-macro-arguments \
 		-Wno-c++11-extensions -Wno-c++14-extensions \
 		-Wno-c++17-extensions -Wno-c++20-extensions \
