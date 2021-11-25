@@ -84,8 +84,10 @@ _GLIBCXX_ASSERTIONS\
 >")
 
 target_link_options(${EXECUTABLE_NAME} PRIVATE
-"-Wl,-pie,-z,defs,-z,now,-z,relro"
 "-fuse-ld=lld"
+)
+target_link_options(${EXECUTABLE_NAME} PUBLIC
+"-Wl,-pie,-z,defs,-z,now,-z,relro"
 
 "$<$<CONFIG:Debug>:\
 -fsanitize=address;\
