@@ -83,7 +83,7 @@ _GLIBCXX_ASSERTIONS\
 >")
 
 target_link_options(${EXECUTABLE_NAME} PRIVATE
-"-Wl,-pie,-z,defs,-z,now,-z,relro"
+"-Wl,-z,defs,-z,now,-z,relro"
 "-fuse-ld=lld"
 
 "$<$<CONFIG:Debug>:\

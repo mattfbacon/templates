@@ -87,7 +87,7 @@ target_link_options(${EXECUTABLE_NAME} PRIVATE
 "-fuse-ld=lld"
 )
 target_link_options(${EXECUTABLE_NAME} PUBLIC
-"-Wl,-pie,-z,defs,-z,now,-z,relro"
+"-Wl,-z,defs,-z,now,-z,relro"
 
 "$<$<CONFIG:Debug>:\
 -fsanitize=address;\
